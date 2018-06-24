@@ -5,12 +5,13 @@
 </head>
 <body>
 	<h1>Select Mail Package Type</h1>
+	<h2>(For One Ounce starting weight value)</h2>
 	<form action="/getRate" method="get">
 		<select name="getRate">
-			<option>Letters (Stamped)</option>
-			<option>Letters (Metered)</option>
-			<option>Large Envelopes (Flats)</option>
-			<option>First-Class Package Service—Retail</option>
+			<option value="0.50">Letters (Stamped) ($0.50)</option>
+			<option value="0.47">Letters (Metered) ($0.47)</option>
+			<option value="1.00">Large Envelopes (Flats) ($1.00)</option>
+			<option value="3.50">First-Class Package Service—Retail ($3.50)</option>
 		</select>
 		<br><br>
 		<input type="submit" value="Get Result">
